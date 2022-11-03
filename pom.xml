@@ -26,9 +26,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-     <distributionManagement>
-		 <url> http://172.20.10.3:8081/repository/maven-releases</url>
-	 </distributionManagement>
+     
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -73,6 +71,9 @@
 				</configuration>
 			</plugin>
 		</plugins>
+	<distributionManagement>
+		 <url> http://172.20.10.3:8081/repository/maven-releases</url>
+	 </distributionManagement>
 	</build>
 
 </project>
