@@ -59,11 +59,11 @@
 	<distributionManagement>
 		<snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://admin:rana@192.168.1.30:8081/repository/maven-snapshots/</url>
+      <url>http://admin:rana@192.168.1.4:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>nexus-releases</id>
-      <url>http://admin:rana@192.168.1.30:8081/repository/maven-releases/</url>
+      <url>http://admin:rana@192.168.1.4:8081/repository/maven-releases/</url>
     </repository>
 	</distributionManagement>
 	
